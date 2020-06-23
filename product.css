@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
@@ -270,12 +269,6 @@ footer > ul > li > a{
     }
 }
 
-@media (max-width: 760px){
-    .navbar a:hover{
-      background-color: transparent;
-    }
-}
-
 @media (max-width: 650px) {
     #form{
       margin-left: 30%;
@@ -296,9 +289,7 @@ footer > ul > li > a{
     }
     .navbar.responsive {position: relative;}
     .navbar.responsive .icon {
-       position: absolute;
-       right: 0;
-       top: 0;
+      display:none;
     }
    .navbar.responsive a {
       float:none;
