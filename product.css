@@ -287,7 +287,9 @@ footer > ul > li > a{
     }
     .navbar.responsive {position: relative;}
     .navbar.responsive .icon {
-      display:none;
+      position: absolute;
+      right:0;
+      top:0;
     }
    .navbar.responsive a:not(:first-child){width: 100%;}
    .navbar.responsive a:last-child{text-align: right;}
