@@ -285,7 +285,7 @@ footer > ul > li > a{
       float: right;
       display: block;
     }
-    .navbar.responsive {position: relative;}
+    .navbar.responsive {position: fixed;}
     .navbar.responsive .icon {
       position: absolute;
       right:0;
