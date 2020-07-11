@@ -304,6 +304,9 @@ footer > ul > li > a{
       display: block;
       text-align: left;
     }
+    #pricing {
+		margin-left: 5%;
+	}
 }
 
 @media (max-width: 480px) {
